@@ -44,3 +44,12 @@ function populateList(arr)
 }
 
 populateList(shoppingItems);
+
+function changeListStyle()
+{
+    shoppingListElement.classList.remove("circleList");
+    shoppingListElement.classList.add("squareList");
+
+}
+
+changeListStyle();
