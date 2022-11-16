@@ -17,4 +17,12 @@
 //     console.log(`Hello ${user}`);
 //   }
 
+function calcArea(radius) {
+  let result = Math.PI * radius * radius;
+  return result;
+}
 
+let r = prompt("Give a readius");
+let calculatedArea = calcArea(r).toFixed(2);
+ 
+alert(`The area of a circle with radius ${r} is ${calculatedArea}`);
